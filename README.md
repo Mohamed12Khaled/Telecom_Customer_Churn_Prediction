@@ -56,11 +56,6 @@ The dataset includes 21 columns grouped into 4 main categories: Target, Customer
 
 ---
 
-##أكيد 👍
-دي **نسخة مُعاد صياغتها بشكل احترافي وواضح**، مناسبة جدًا للـ **README أو التقرير الأكاديمي**، مع الحفاظ على نفس المعنى لكن بلغة أبسط وأقوى:
-
----
-
 ## Objectives
 
 The main objective of this project is to build a reliable predictive model that can identify customers who are likely to churn by utilizing both numerical and categorical features. This problem is treated as a binary classification task while accounting for the class imbalance present in the dataset.

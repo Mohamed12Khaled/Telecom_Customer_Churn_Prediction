@@ -54,8 +54,33 @@ The dataset includes 21 columns grouped into 4 main categories: Target, Customer
 | **TotalCharges**     | The total amount charged to the customer over their tenure.                                                                 |
 | **Churn**            | Whether the customer has churned (`Yes` or `No`).                                                                           |
 
+---
 
+##أكيد 👍
+دي **نسخة مُعاد صياغتها بشكل احترافي وواضح**، مناسبة جدًا للـ **README أو التقرير الأكاديمي**، مع الحفاظ على نفس المعنى لكن بلغة أبسط وأقوى:
 
+---
+
+## Objectives
+
+The main objective of this project is to build a reliable predictive model that can identify customers who are likely to churn by utilizing both numerical and categorical features. This problem is treated as a binary classification task while accounting for the class imbalance present in the dataset.
+
+1. Dataset Understanding and Feature Exploration:
+   To thoroughly examine the dataset and its attributes, including customer identifiers, demographic information, senior citizen status, partnership, dependents, tenure, and subscribed         services.
+
+2. Customer Profile Analysis:
+   To analyze customer characteristics by exploring demographic details, service usage patterns, contract types, billing preferences, and payment methods.
+
+3. Internet and Service Usage Evaluation:
+   To investigate the availability of internet services and related features such as online security, online backup, device protection, technical support, streaming TV, and streaming           movies, and assess their relationship with customer churn.
+   
+5. Contract and Billing Behavior Analysis:
+   To examine the impact of contract terms, billing methods, paperless billing preferences, and monthly and total charges on customer retention.
+
+6. Churn Analysis and End-to-End Modeling Workflow:
+   To analyze customer churn through a complete data science pipeline, including dataset exploration, exploratory data analysis (EDA), feature engineering, model development, evaluation,       and final conclusions.
+
+---
 
 
 

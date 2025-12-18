@@ -15,3 +15,64 @@ today have multiple service providers to choose from, and even minor issues such
 Customer acquisition is significantly more expensive than customer retention, making churn a direct threat to revenue and long-term business sustainability. Understanding why customers leave, identifying high-risk churn segments, and acting proactively are critical for telecom companies to maintain profitability and customer trust.
 
 Therefore, analyzing customer behavior and service usage patterns to predict churn is a vital step toward designing effective retention strategies and improving service quality.
+
+---
+
+## Aim
+
+The goal of this project is to identify and classify customers who are likely to churn by utilizing both numerical and categorical data. This involves solving a binary classification problem while carefully handling the inherent imbalance in the dataset.
+
+---
+
+## Dataset Overview
+
+The Telco Customer Churn dataset contains information about customers, their demographics, account details, and services they have subscribed to. It is designed to help predict customer churn, i.e., whether a customer is likely to leave the telecom company.
+
+The dataset includes 21 columns grouped into 4 main categories: Target, Customer Demographics, Account Information, and Services Subscribed.
+
+| Column Name          | Description                                                                                                                 |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **customerID**       | Unique identifier for each customer.                                                                                        |
+| **gender**           | Whether the customer is male or female.                                                                                     |
+| **SeniorCitizen**    | Whether the customer is a senior citizen or not (`1 = Yes, 0 = No`).                                                        |
+| **Partner**          | Whether the customer has a partner (`Yes` or `No`).                                                                         |
+| **Dependents**       | Whether the customer has dependents (`Yes` or `No`).                                                                        |
+| **tenure**           | Number of months the customer has stayed with the company.                                                                  |
+| **PhoneService**     | Whether the customer has a phone service (`Yes` or `No`).                                                                   |
+| **MultipleLines**    | Whether the customer has multiple lines (`Yes`, `No`, `No phone service`).                                                  |
+| **InternetService**  | Customer’s internet service provider (`DSL`, `Fiber optic`, `No`).                                                          |
+| **OnlineSecurity**   | Whether the customer has online security (`Yes`, `No`, `No internet service`).                                              |
+| **OnlineBackup**     | Whether the customer has online backup (`Yes`, `No`, `No internet service`).                                                |
+| **DeviceProtection** | Whether the customer has device protection (`Yes`, `No`, `No internet service`).                                            |
+| **TechSupport**      | Whether the customer has tech support (`Yes`, `No`, `No internet service`).                                                 |
+| **StreamingTV**      | Whether the customer has streaming TV (`Yes`, `No`, `No internet service`).                                                 |
+| **StreamingMovies**  | Whether the customer has streaming movies (`Yes`, `No`, `No internet service`).                                             |
+| **Contract**         | The contract term of the customer (`Month-to-month`, `One year`, `Two year`).                                               |
+| **PaperlessBilling** | Whether the customer uses paperless billing (`Yes` or `No`).                                                                |
+| **PaymentMethod**    | The customer’s payment method (`Electronic check`, `Mailed check`, `Bank transfer (automatic)`, `Credit card (automatic)`). |
+| **MonthlyCharges**   | The amount charged to the customer monthly.                                                                                 |
+| **TotalCharges**     | The total amount charged to the customer over their tenure.                                                                 |
+| **Churn**            | Whether the customer has churned (`Yes` or `No`).                                                                           |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
